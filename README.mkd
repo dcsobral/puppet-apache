@@ -8,14 +8,14 @@ This module was written for Debian.
 ## Classes ##
 
 * apache
-* enable-mod-rewrite
-* enable-mod-deflate
-* enable-mod-status
-* php5
-* php5-mysql
-* php5-pgsql
-* php5-ldap
-* php5-gd
+* apache::enable-mod-rewrite
+* apache::enable-mod-deflate
+* apache::enable-mod-status
+* apache::php5
+* apache::php5-mysql
+* apache::php5-pgsql
+* apache::php5-ldap
+* apache::php5-gd
 
 ### apache ###
 
