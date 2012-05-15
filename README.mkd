@@ -1,0 +1,23 @@
+# apache puppet module #
+
+Installs Apache2, with subclasses to enable Apache2 modules and install PHP
+and PHP modules.
+
+This module was written for Debian.
+
+## Classes ##
+
+* apache
+* enable-mod-rewrite
+* enable-mod-deflate
+* enable-mod-status
+* php5
+* php5-mysql
+* php5-pgsql
+* php5-ldap
+* php5-gd
+
+### apache ###
+
+Apache2 package and service. Does not select type of instalation (mpm-prefork, mpm-worker, etc).
+
